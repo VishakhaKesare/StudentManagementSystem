@@ -10,7 +10,7 @@ const Login = () => {
 
   const [data, setData] = useState({ username: "", password: "" });
 
-  // ✅ Navigate to students page when token is received
+  
   useEffect(() => {
     if (token) {
       navigate("/students");
@@ -28,7 +28,7 @@ const Login = () => {
         <h2 style={styles.title}>Welcome back</h2>
         <p style={styles.subtitle}>Sign in to your account</p>
 
-        {/* ✅ Show error if login fails */}
+      
         {error && (
           <p style={styles.error}>Invalid username or password</p>
         )}

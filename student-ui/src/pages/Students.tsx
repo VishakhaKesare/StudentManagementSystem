@@ -92,7 +92,7 @@ const Students = () => {
         </div>
       </div>
 
-      {/* Add/Edit Modal */}
+    
       {showModal && (
         <div style={s.overlay}>
           <div style={s.modal}>
